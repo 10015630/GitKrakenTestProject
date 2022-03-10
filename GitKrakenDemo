@@ -1,0 +1,14 @@
+public class KrakenDemo
+{
+	interface BooleanFunction
+{
+	  Boolean run(int num);
+	}
+
+    public static void main (String[]args)
+    {
+        BooleanFunction rootCheck = (n) -> (Math.round(Math.sqrt(n)) == Math.sqrt(n));
+        //System.out.println(rootCheck.run(26));
+    }
+
+}
