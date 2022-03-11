@@ -1,0 +1,16 @@
+public class KrakenDemo
+{
+
+	interface VoidFunction
+	{
+		void run(float a, float b);
+	}
+	public static void main(String[]args)
+	{
+		VoidFunction printQuotient = (a,b) -> {float quotient = a/b;
+				quotient = Math.round(quotient*1000.0f)/1000.0f;
+				System.out.printf("Quotient: %s%n", quotient); };
+
+		printQuotient.run(1, 6);
+	}
+}
