@@ -19,5 +19,8 @@ public class KrakenDemo
         BooleanFunction rootCheck = (n) -> (Math.round(Math.sqrt(n)) == Math.sqrt(n));
         //System.out.println(rootCheck.run(26));
     }
-	
+
+	//Comment Partner B
+	//I learned that GitKraken, GitHub, and Git are all incredibly helpful for having multiple people collaborating on the same project
+
 }
