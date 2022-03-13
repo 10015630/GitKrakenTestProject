@@ -1,5 +1,9 @@
 public class KrakenDemo
 {
+	interface BooleanFunction
+{
+	  Boolean run(int num);
+	}
 
 	interface VoidFunction
 	{
@@ -12,5 +16,7 @@ public class KrakenDemo
 				System.out.printf("Quotient: %s%n", quotient); };
 
 		printQuotient.run(1, 6);
-	}
+        BooleanFunction rootCheck = (n) -> (Math.round(Math.sqrt(n)) == Math.sqrt(n));
+        //System.out.println(rootCheck.run(26));
+    }
 }
