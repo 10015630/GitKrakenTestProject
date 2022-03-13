@@ -20,4 +20,9 @@ public class KrakenDemo
         //System.out.println(rootCheck.run(26));
     }
 	
+	/* Comment Partner A
+		I learned that Git Kraken is a software that makes Git commands and processes easy, fast, and intuitive, allows for more fluid workflows. 
+		It allows multiple people to collaborate on the same project which allows a team of programmers to complete the different parts of the same assignment by
+		merging the parts to create one file. 
+	*/
 }
